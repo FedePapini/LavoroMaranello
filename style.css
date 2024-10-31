@@ -1,0 +1,90 @@
+/* Stile generale */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+}
+
+/* Hero Section con immagine di sfondo */
+.hero {
+    background-image: url('immagini/foto rotatroia di maranello.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+/* sezione eventi */
+#event {
+    padding: 60px 15px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#event img {
+    max-width: 100%;
+    height: auto;
+    width: 15%; /* Ridimensiona l'immagine al massimo all'80% del contenitore */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+
+/* Sezioni */
+section {
+    padding: 60px 15px;
+}
+
+#about,
+#attractions {
+    background-color: #f8f9fa;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Immagini responsive */
+img,
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maranello - Benvenuti</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Città di Maranello</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Chi siamo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#events">Eventi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#attractions">Attrazioni</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section con immagine di sfondo -->
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Benvenuti a Maranello</h1>
+            <p>Scopri la città della Ferrari, della cultura e delle tradizioni.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container text-center my-5">
+        <h2>La nostra storia</h2>
+        <p>Maranello è una città famosa in tutto il mondo per essere la casa della Ferrari. Qui tradizione, innovazione e cultura si fondono per creare un luogo unico da visitare.</p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="event">
+        <h2>Prossimo Evento</h2> &nbsp;
+        <p>Unisciti a noi per il nostro evento speciale!</p>
+        <img src="immagini/locandina evento.png" alt="Locandina dell'evento">
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="container text-center my-5">
+        <h2>Le attrazioni di Maranello</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Museo Ferrari</h3>
+                <p>Esplora la storia della Ferrari e ammira i modelli più iconici della scuderia.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Parco Ferrari</h3>
+                <p>Un bellissimo parco per godersi momenti di relax e natura, perfetto per famiglie e appassionati.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h2>Contattaci</h2>
+            <p>Email: info@maranello.it | Telefono: +39 0536 000000</p>
+            <div id="map" class="my-3"> <!-- Mappa interattiva verrà caricata tramite JavaScript -->
+                <p>Qui verrà mostrata la mappa della città.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-3">
+        <p>&copy; 2024 Città di Maranello. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
