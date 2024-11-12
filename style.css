@@ -90,5 +90,12 @@ img,
 }
 
 .glass {
-    filter: blur(2rem);
+    filter: blur(2rem) brightness(70%);
+    
+}
+.carousel-caption {
+    bottom: 20%; /* Aumenta la distanza dal basso per spostare il testo verso l'alto */
+}
+.text-content p {
+    text-align: left; /* Allinea il testo a sinistra */
 }
