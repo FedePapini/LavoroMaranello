@@ -105,33 +105,3 @@ img,
 .text-content p {
     text-align: left; /* Allinea il testo a sinistra */
 }
-/* Stile dell'overlay */
-.overlay {
-    display: none; /* Inizialmente nascosto */
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Sfondo scuro con trasparenza */
-    justify-content: center;
-    align-items: center;
-}
-
-/* Immagine all'interno dell'overlay */
-.overlay-content {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-}
-
-/* Bottone per chiudere l'overlay */
-.close-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 2em;
-    color: white;
-    cursor: pointer;
-}

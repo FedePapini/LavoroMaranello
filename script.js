@@ -17,17 +17,3 @@ window.onload = function() {
         eventList.appendChild(eventDiv);
     });
 };
-// Ottieni gli elementi
-const mapImage = document.getElementById('mapImage');
-const overlay = document.getElementById('mapOverlay');
-const closeBtn = document.getElementById('closeBtn');
-
-// Funzione per aprire l'overlay quando si clicca sull'immagine
-mapImage.addEventListener('click', function() {
-    overlay.style.display = 'flex'; // Mostra l'overlay
-});
-
-// Funzione per chiudere l'overlay quando si clicca sulla "X"
-closeBtn.addEventListener('click', function() {
-    overlay.style.display = 'none'; // Nascondi l'overlay
-});
