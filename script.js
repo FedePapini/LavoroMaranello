@@ -1,8 +1,3 @@
-// Eventi di esempio
-const events = [
-    { title: "Festa della Ferrari", date: "10 Novembre 2024", location: "Centro Storico" },
-    { title: "Mercato Locale", date: "15 Novembre 2024", location: "Piazza del Comune" },
-];
 
 // Caricamento dinamico degli eventi
 window.onload = function() {
@@ -22,3 +17,17 @@ window.onload = function() {
         eventList.appendChild(eventDiv);
     });
 };
+// Ottieni gli elementi
+const mapImage = document.getElementById('mapImage');
+const overlay = document.getElementById('mapOverlay');
+const closeBtn = document.getElementById('closeBtn');
+
+// Funzione per aprire l'overlay quando si clicca sull'immagine
+mapImage.addEventListener('click', function() {
+    overlay.style.display = 'flex'; // Mostra l'overlay
+});
+
+// Funzione per chiudere l'overlay quando si clicca sulla "X"
+closeBtn.addEventListener('click', function() {
+    overlay.style.display = 'none'; // Nascondi l'overlay
+});
